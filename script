@@ -1,0 +1,10 @@
+sudo  apt update
+sudo apt upgrade
+sudo apt raspi-config # Interfacing Options
+sudo reboot
+raspivid -0 aboba4343.h264
+raspivid -0 aboba4343.png
+
+#Bluetooth
+sudo apt-get install bluetooth bluez-utils bluez-compat
+hcitool scan
