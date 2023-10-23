@@ -8,3 +8,8 @@ raspivid -0 aboba4343.png
 #Bluetooth
 sudo apt-get install bluetooth bluez-utils bluez-compat
 hcitool scan
+
+#VNC
+sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
+sudo raspi-config # nterfacing Options VNC
+vncserver
