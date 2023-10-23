@@ -13,3 +13,8 @@ hcitool scan
 sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 sudo raspi-config # nterfacing Options VNC
 vncserver
+
+#python
+sudo apt install -y python3-pip
+sudo apt install -y python3-venv
+#source env/bin/activate
