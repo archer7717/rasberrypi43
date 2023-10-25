@@ -18,3 +18,7 @@ vncserver
 sudo apt install -y python3-pip
 sudo apt install -y python3-venv
 #source env/bin/activate
+
+
+#anydesk
+ wget https://anydesk.com/ru/downloads/raspberry-pi?dv=raspberrypi
